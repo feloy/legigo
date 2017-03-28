@@ -56,18 +56,6 @@ type TexteVersion struct {
 	} `xml:"RECT>CONTENU"`
 }
 
-type Lien struct {
-	CidTexte       string `xml:"cidtexte,attr"`
-	DateSignaTexte string `xml:"datesignatexte,attr"`
-	Id             string `xml:"id,attr"`
-	NatureTexte    string `xml:"naturetexte,attr"`
-	NorTexte       string `xml:"nortexte,attr"`
-	Num            string `xml:"num,attr"`
-	NumTexte       string `xml:"numtexte,attr"`
-	Sens           string `xml:"sens,attr"`
-	TypeLien       string `xml:"typelien,attr"`
-}
-
 func DecodeTexteVersion(filename string) (*TexteVersion, error) {
 
 	content, err := ioutil.ReadFile(filename)

@@ -34,18 +34,6 @@ type Textelr struct {
 	LiensSectionTa []LienSectionTa `xml:"STRUCT>LIEN_SECTION_TA"`
 }
 
-type Version struct {
-	Etat    string  `xml:"etat,attr"`
-	LienTxt LienTxt `xml:"LIEN_TXT"`
-}
-
-type LienTxt struct {
-	Debut string `xml:"debut,attr"`
-	Fin   string `xml:"fin,attr"`
-	Id    string `xml:"id,attr"`
-	Num   string `xml:"num,attr"`
-}
-
 func DecodeTextelr(filename string) (*Textelr, error) {
 
 	content, err := ioutil.ReadFile(filename)

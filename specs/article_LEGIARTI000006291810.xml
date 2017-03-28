@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARTICLE>
+  <META>
+    <META_COMMUN>
+      <ID>LEGIARTI000006291810</ID>
+      <ANCIEN_ID>AZAXXXXXXXX3X215D16AXXAA</ANCIEN_ID>
+      <ORIGINE>LEGI</ORIGINE>
+      <URL>article/LEGI/ARTI/00/00/06/29/18/LEGIARTI000006291810.xml</URL>
+      <NATURE>Article</NATURE>
+    </META_COMMUN>
+    <META_SPEC>
+      <META_ARTICLE>
+	<NUM>D215-16</NUM>
+
+	<ETAT>MODIFIE</ETAT>
+
+	<DATE_DEBUT>2007-10-18</DATE_DEBUT>
+	<DATE_FIN>2012-11-11</DATE_FIN>
+
+
+	<TYPE>AUTONOME</TYPE>
+      </META_ARTICLE>
+    </META_SPEC>
+  </META>
+  <CONTEXTE>
+    <TEXTE autorite="" cid="LEGITEXT000006069565" date_publi="2999-01-01" date_signature="2999-01-01" ministere="" nature="CODE" nor="" num="">
+      <TITRE_TXT c_titre_court="Code de la consommation" debut="1993-07-27" fin="2999-01-01" id_txt="LEGITEXT000006069565">Code de la consommation</TITRE_TXT>
+      <TM>
+	<TITRE_TM debut="1997-04-03" fin="2016-10-01" id="LEGISCTA000006084139">Partie réglementaire</TITRE_TM>
+	<TM>
+	  <TITRE_TM debut="1997-04-03" fin="2016-07-01" id="LEGISCTA000006114379">Livre II : Qualité des produits et des services</TITRE_TM>
+	  <TM>
+	    <TITRE_TM debut="1997-04-03" fin="2016-07-01" id="LEGISCTA000006133643">Titre Ier : Conformité</TITRE_TM>
+	    <TM>
+	      <TITRE_TM debut="1997-04-03" fin="2016-07-01" id="LEGISCTA000006146615">Chapitre V : Pouvoirs d'enquête</TITRE_TM>
+	      <TM>
+		<TITRE_TM debut="1997-04-03" fin="2016-07-01" id="LEGISCTA000006161932">Section 2 : Recherche et constatation.</TITRE_TM>
+	      </TM>
+	    </TM>
+	  </TM>
+	</TM>
+      </TM>
+    </TEXTE>
+  </CONTEXTE>
+
+  <VERSIONS>
+    <VERSION etat="MODIFIE">
+      <LIEN_ART debut="2007-10-18" etat="MODIFIE" fin="2012-11-11" id="LEGIARTI000006291810" num="D215-16" origine="LEGI"/>
+    </VERSION>
+    <VERSION etat="MODIFIE">
+      <LIEN_ART debut="2012-11-11" etat="MODIFIE" fin="2014-05-30" id="LEGIARTI000026617830" num="D215-16" origine="LEGI"/>
+    </VERSION>
+    <VERSION etat="ABROGE">
+      <LIEN_ART debut="2014-05-30" etat="ABROGE" fin="2014-10-03" id="LEGIARTI000029026379" num="D215-16" origine="LEGI"/>
+    </VERSION>
+  </VERSIONS>
+  <NOTA>
+    <CONTENU/>
+  </NOTA>
+  <BLOC_TEXTUEL>
+    <CONTENU>
+      <br/>   Le remboursement des frais exposés pour la recherche et la constatation des infractions au livre II du présent code et des textes pris pour son application est effectué à l'appui d'un titre de perception unique émis par le préfet et recouvré par le comptable du Trésor public conformément aux dispositions prévues aux articles 80 à 95 du décret n° 62-1587 du 29 décembre 1962 portant règlement général sur la comptabilité publique.<br/>
+      <br/>   Ce titre précisera, par poste de dépense, les coûts indiqués par l'agent verbalisateur mentionné à l'article L. 215-1 et faisant l'objet de la demande de remboursement.<br/>
+      <br/>   Les postes de dépenses sont :<br/>
+      <br/>   a) Les prélèvements et le transport des échantillons, dont le montant est fixé forfaitairement à 220 Euros TTC ;<br/>
+      <br/>   b) Les analyses et essais, dont le montant est établi sur la base des coûts de revient supportés par le service auquel appartient l'agent verbalisateur.<br/>
+    </CONTENU>
+  </BLOC_TEXTUEL>
+  <LIENS>
+    <LIEN cidtexte="JORFTEXT000000299367" datesignatexte="1962-12-29" id="JORFTEXT000000299367" naturetexte="DECRET" nortexte="" num="" numtexte="62-1587" sens="source" typelien="CITATION">Décret 62-1587 1962-12-29 art. 80 à 95</LIEN>
+    <LIEN cidtexte="JORFTEXT000000383100" datesignatexte="1997-03-27" id="JORFTEXT000000383100" naturetexte="DECRET" nortexte="FCEC9600048D" num="" numtexte="97-298" sens="source" typelien="CODIFICATION">Décret 97-298 1997-03-27 JORF 3 avril 1997</LIEN>
+    <LIEN cidtexte="JORFTEXT000000619209" datesignatexte="2007-10-16" id="LEGIARTI000006268884" naturetexte="DECRET" nortexte="ECEC0755649D" num="1" numtexte="2007-1480" sens="source" typelien="CREATION">Décret n°2007-1480 du 16 octobre 2007 - art. 1 () JORF 18 octobre 2007</LIEN>
+    <LIEN cidtexte="LEGITEXT000006069565" datesignatexte="2999-01-01" id="LEGIARTI000006292250" naturetexte="CODE" nortexte="" num="L215-1" numtexte="" sens="source" typelien="CITATION">Code de la consommation - art. L215-1 (M)</LIEN>
+  </LIENS>
+</ARTICLE>
