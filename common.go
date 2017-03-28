@@ -1,4 +1,4 @@
-package xml
+package legigo
 
 // Used in Textelr and SectionTa and Article
 type LienArt struct {
