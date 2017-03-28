@@ -5,6 +5,14 @@ import (
 	"testing"
 )
 
+func TestDecodeTexteVersionUnknown(t *testing.T) {
+	f := "specs/notfound.xml"
+	_, err := DecodeTexteVersion(f)
+	if err == nil {
+		t.Errorf("Error unhandled not found file")
+	}
+}
+
 func TestDecodeTexteVersion1(t *testing.T) {
 	f := "specs/texte_version_LEGITEXT000005627819.xml"
 	v, err := DecodeTexteVersion(f)
