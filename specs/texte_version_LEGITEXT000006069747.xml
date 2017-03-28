@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEXTE_VERSION>
+  <META>
+    <META_COMMUN>
+      <ID>LEGITEXT000006069747</ID>
+      <ANCIEN_ID>FAIFX</ANCIEN_ID>
+      <ORIGINE>LEGI</ORIGINE>
+      <URL>texte/version/LEGI/TEXT/00/00/06/06/97/LEGITEXT000006069747.xml</URL>
+      <NATURE>ARRETE</NATURE>
+    </META_COMMUN>
+    <META_SPEC>
+      <META_TEXTE_CHRONICLE>
+	<CID>LEGITEXT000006069747</CID>
+	<NUM/>
+	<NUM_SEQUENCE>0</NUM_SEQUENCE>
+	<NOR/>
+	<DATE_PUBLI>2999-01-01</DATE_PUBLI>
+	<DATE_TEXTE>1982-05-28</DATE_TEXTE>
+	<DERNIERE_MODIFICATION>1982-05-30</DERNIERE_MODIFICATION>
+	<VERSIONS_A_VENIR/>
+	<ORIGINE_PUBLI/>
+	<PAGE_DEB_PUBLI>0</PAGE_DEB_PUBLI>
+	<PAGE_FIN_PUBLI>0</PAGE_FIN_PUBLI>
+      </META_TEXTE_CHRONICLE>
+      <META_TEXTE_VERSION>
+
+
+	<TITRE>Arrêté du 28 mai 1982</TITRE>
+	<TITREFULL>Arrêté du 28 mai 1982 Approbation de la méthode de calcul du complément de rémunération des comptes sur livret d'épargne populaire.</TITREFULL>
+
+	<ETAT>VIGUEUR</ETAT>
+	<DATE_DEBUT>1982-05-30</DATE_DEBUT>
+	<DATE_FIN>2999-01-01</DATE_FIN>
+	<AUTORITE/>
+	<MINISTERE/>
+	<LIENS>
+	  <LIEN cidtexte="JORFTEXT000000879675" datesignatexte="1982-05-28" id="LEGIARTI000006730900" naturetexte="DECRET" nortexte="" num="16" numtexte="82-454" sens="source" typelien="TXT_SOURCE">Décret 82-454 1982-05-28 ART. 16</LIEN>
+	</LIENS>
+
+      </META_TEXTE_VERSION>
+    </META_SPEC>
+  </META>
+  <VISAS>
+    <CONTENU>   Le ministre de l'économie et des finances,    Vu le décret n° 82-454 du 28 mai 1982 pris pour l'application de la loi n° 82-357 du 27 avril 1982 portant création d'un régime d'épargne populaire, et notamment son article 16,<br/>
+    <br/>
+    </CONTENU>
+  </VISAS>
+  <SIGNATAIRES>
+    <CONTENU>JACQUES DELORS<br/>
+    <br/>
+    </CONTENU>
+  </SIGNATAIRES>
+  <TP>
+    <CONTENU/>
+  </TP>
+  <NOTA>
+    <CONTENU/>
+  </NOTA>
+  <ABRO>
+    <CONTENU/>
+  </ABRO>
+  <RECT>
+    <CONTENU/>
+  </RECT>
+
+
+</TEXTE_VERSION>
