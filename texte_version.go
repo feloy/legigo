@@ -28,15 +28,15 @@ type TexteVersion struct {
 	PageDebPubli         string   `xml:"META>META_SPEC>META_TEXTE_CHRONICLE>PAGE_DEB_PUBLI"`
 	PageFinPubli         string   `xml:"META>META_SPEC>META_TEXTE_CHRONICLE>PAGE_FIN_PUBLI"`
 	//   - META_TEXTE_VERSION
-	Autorite    string `xml:"META>META_SPEC>META_TEXTE_VERSION>AUTORITE"`
-	DateDebut   string `xml:"META>META_SPEC>META_TEXTE_VERSION>DATE_DEBUT"`
-	DateFin     string `xml:"META>META_SPEC>META_TEXTE_VERSION>DATE_FIN"`
-	Etat        string `xml:"META>META_SPEC>META_TEXTE_VERSION>ETAT"`
-	Liens       []Lien `xml:"META>META_SPEC>META_TEXTE_VERSION>LIENS>LIEN"`
-	Ministere   string `xml:"META>META_SPEC>META_TEXTE_VERSION>MINISTERE"`
-	Titre       string `xml:"META>META_SPEC>META_TEXTE_VERSION>TITRE"`
-	TitreFull   string `xml:"META>META_SPEC>META_TEXTE_VERSION>TITREFULL"`
-	Visas       struct {
+	Autorite  string `xml:"META>META_SPEC>META_TEXTE_VERSION>AUTORITE"`
+	DateDebut string `xml:"META>META_SPEC>META_TEXTE_VERSION>DATE_DEBUT"`
+	DateFin   string `xml:"META>META_SPEC>META_TEXTE_VERSION>DATE_FIN"`
+	Etat      string `xml:"META>META_SPEC>META_TEXTE_VERSION>ETAT"`
+	Liens     []Lien `xml:"META>META_SPEC>META_TEXTE_VERSION>LIENS>LIEN"`
+	Ministere string `xml:"META>META_SPEC>META_TEXTE_VERSION>MINISTERE"`
+	Titre     string `xml:"META>META_SPEC>META_TEXTE_VERSION>TITRE"`
+	TitreFull string `xml:"META>META_SPEC>META_TEXTE_VERSION>TITREFULL"`
+	Visas     struct {
 		Contenu string `xml:",innerxml"`
 	} `xml:"VISAS>CONTENU"`
 	Signataires struct {

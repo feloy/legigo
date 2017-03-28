@@ -26,6 +26,7 @@ func TestDecodeTextelr(t *testing.T) {
 	v, err := DecodeTextelr(f)
 	if err != nil {
 		t.Errorf("Error decoding file")
+		return
 	}
 
 	assertStringEquals(t, "CMARPCN0", v.AncienId)

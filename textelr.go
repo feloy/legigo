@@ -34,26 +34,6 @@ type Textelr struct {
 	LiensSectionTa []LienSectionTa `xml:"STRUCT>LIEN_SECTION_TA"`
 }
 
-type LienArt struct {
-	Debut   string `xml:"debut,attr"`
-	Etat    string `xml:"etat,attr"`
-	Fin     string `xml:"fin,attr"`
-	Id      string `xml:"id,attr"`
-	Num     string `xml:"num,attr"`
-	Origine string `xml:"origine,attr"`
-}
-
-type LienSectionTa struct {
-	Cid     string `xml:"cid,attr"`
-	Debut   string `xml:"debut,attr"`
-	Etat    string `xml:"etat,attr"`
-	Fin     string `xml:"fin,attr"`
-	Id      string `xml:"id,attr"`
-	Niv     string `xml:"niv,attr"`
-	Url     string `xml:"url,attr"`
-	Contenu string `xml:",chardata"`
-}
-
 type Version struct {
 	Etat    string  `xml:"etat,attr"`
 	LienTxt LienTxt `xml:"LIEN_TXT"`

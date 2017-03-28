@@ -1,7 +1,7 @@
 package xml
 
 import (
-//	"fmt"
+	//	"fmt"
 	"testing"
 )
 
@@ -26,6 +26,7 @@ func TestDecodeTexteVersion1(t *testing.T) {
 	v, err := DecodeTexteVersion(f)
 	if err != nil {
 		t.Errorf("Error decoding file")
+		return
 	}
 
 	assertStringEquals(t, "CMARPCN0", v.AncienId)
@@ -70,6 +71,7 @@ func TestDecodeTexteVersion2(t *testing.T) {
 	v, err := DecodeTexteVersion(f)
 	if err != nil {
 		t.Errorf("Error decoding file")
+		return
 	}
 
 	assertStringEquals(t, "FAIFX", v.AncienId)

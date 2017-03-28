@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SECTION_TA>
+  <ID>LEGISCTA000006083673</ID>
+  <TITRE_TA>Partie législative</TITRE_TA>
+  <STRUCTURE_TA>
+    <LIEN_SECTION_TA cid="LEGISCTA000006114031" debut="1992-07-03" etat="VIGUEUR" fin="2999-01-01" id="LEGISCTA000006114031" niv="2" url="/LEGI/SCTA/00/00/06/11/40/LEGISCTA000006114031.xml">Première partie : La propriété littéraire et artistique</LIEN_SECTION_TA>
+    <LIEN_SECTION_TA cid="LEGISCTA000006114032" debut="1992-07-03" etat="VIGUEUR" fin="2999-01-01" id="LEGISCTA000006114032" niv="2" url="/LEGI/SCTA/00/00/06/11/40/LEGISCTA000006114032.xml">Deuxième partie : La propriété industrielle</LIEN_SECTION_TA>
+    <LIEN_SECTION_TA cid="LEGISCTA000006114035" debut="2001-07-28" etat="MODIFIE" fin="2014-03-13" id="LEGISCTA000006114035" niv="2" url="/LEGI/SCTA/00/00/06/11/40/LEGISCTA000006114035.xml">Troisième partie : Application aux territoires d'outre-mer et à Mayotte</LIEN_SECTION_TA>
+    <LIEN_SECTION_TA cid="LEGISCTA000006114035" debut="2014-03-13" etat="VIGUEUR" fin="2999-01-01" id="LEGISCTA000028717135" niv="2" url="/LEGI/SCTA/00/00/28/71/71/LEGISCTA000028717135.xml">Troisième partie : Dispositions relatives à l'outre-mer</LIEN_SECTION_TA>
+    <LIEN_SECTION_TA cid="LEGISCTA000006114034" debut="1992-07-03" etat="ABROGE" fin="2006-06-02" id="LEGISCTA000006114034" niv="2" url="/LEGI/SCTA/00/00/06/11/40/LEGISCTA000006114034.xml">Troisième partie : Application aux territoires d'outre-mer et à la collectivité territoriale de Mayotte</LIEN_SECTION_TA>
+  </STRUCTURE_TA>
+  <CONTEXTE>
+    <TEXTE autorite="" cid="LEGITEXT000006069414" date_publi="2999-01-01" date_signature="2999-01-01" ministere="" nature="CODE" nor="" num="">
+      <TITRE_TXT c_titre_court="Code de la propriété intellectuelle" debut="1992-07-03" fin="2999-01-01" id_txt="LEGITEXT000006069414">Code de la propriété intellectuelle</TITRE_TXT>
+    </TEXTE>
+  </CONTEXTE>
+</SECTION_TA>
