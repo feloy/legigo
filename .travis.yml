@@ -2,3 +2,9 @@ language: go
 go:
   - 1.8
   - master
+before_install:
+  - go get github.com/mattn/goveralls
+script:
+  - go test -v -covermode=count -coverprofile=profile.cov
+after_success:
+  - $HOME/gopath/bin/goveralls -coverprofile=profile.cov -service=travis-ci
