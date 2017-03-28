@@ -13,6 +13,14 @@ func TestDecodeTexteLrUnknown(t *testing.T) {
 	}
 }
 
+func TestDecodeTexteLrInvalid(t *testing.T) {
+	f := "specs/texte_version_LEGITEXT000005627819.xml"
+	_, err := DecodeTexteVersion(f)
+	if err == nil {
+		t.Errorf("Error unhandled invalid file")
+	}
+}
+
 func TestDecodeTextelr(t *testing.T) {
 	f := "specs/textelr_LEGITEXT000005627819.xml"
 	v, err := DecodeTextelr(f)

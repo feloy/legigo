@@ -1,7 +1,7 @@
 package xml
 
 import (
-	"fmt"
+//	"fmt"
 	"testing"
 )
 
@@ -10,6 +10,14 @@ func TestDecodeTexteVersionUnknown(t *testing.T) {
 	_, err := DecodeTexteVersion(f)
 	if err == nil {
 		t.Errorf("Error unhandled not found file")
+	}
+}
+
+func TestDecodeTexteVersionInvalid(t *testing.T) {
+	f := "specs/textelr_LEGITEXT000005627819.xml"
+	_, err := DecodeTexteVersion(f)
+	if err == nil {
+		t.Errorf("Error unhandled invalid file")
 	}
 }
 
@@ -89,10 +97,6 @@ func TestDecodeTexteVersion2(t *testing.T) {
 	assertStringEquals(t, "", v.Ministere)
 	assertStringEquals(t, "Arrêté du 28 mai 1982", v.Titre)
 	assertStringEquals(t, "Arrêté du 28 mai 1982 Approbation de la méthode de calcul du complément de rémunération des comptes sur livret d'épargne populaire.", v.TitreFull)
-	fmt.Println(len(`   Le ministre de l'économie et des finances,    Vu le décret n° 82-454 du 28 mai 1982 pris pour l'application de la loi n° 82-357 du 27 avril 1982 portant création d'un régime d'épargne populaire, et notamment son article 16,<br/>
-		<br/>
-		`))
-	fmt.Println(len(v.Visas.Contenu))
 	assertStringEquals(t, `   Le ministre de l'économie et des finances,    Vu le décret n° 82-454 du 28 mai 1982 pris pour l'application de la loi n° 82-357 du 27 avril 1982 portant création d'un régime d'épargne populaire, et notamment son article 16,<br/>
     <br/>
     `, v.Visas.Contenu)
