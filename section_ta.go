@@ -15,6 +15,7 @@ type SectionTa struct {
 	Contexte       Contexte        `xml:"CONTEXTE>TEXTE"`
 }
 
+// DecodeSectionTa decodes a LEGI file describing a "Section Texte Article"
 func DecodeSectionTa(filename string) (*SectionTa, error) {
 
 	content, err := ioutil.ReadFile(filename)
