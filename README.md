@@ -2,3 +2,5 @@
 
 # legigo
 Go (golang) library to explore LEGI files
+
+Inline Documentation: https://godoc.org/github.com/feloy/legigo
