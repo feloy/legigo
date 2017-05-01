@@ -79,4 +79,5 @@ type Lien struct {
 	NumTexte       string `xml:"numtexte,attr"`
 	Sens           string `xml:"sens,attr"`
 	TypeLien       string `xml:"typelien,attr"`
+	Contenu        string `xml:",chardata"`
 }
